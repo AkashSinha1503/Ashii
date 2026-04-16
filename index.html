@@ -51,8 +51,11 @@ see you soon...</span><br><br>
         </div>
     
     <script>
-        var audio = new Audio('roll.mp3');
-        audio.play();
+        <audio id="myAudio" src="aud.mp3"></audio>
+
+<button onclick="document.getElementById('myAudio').play()">
+    Play Sound
+</button>
     </script>
 
     <script>
